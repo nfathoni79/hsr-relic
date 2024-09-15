@@ -9,7 +9,7 @@ export default [
     planars: ['izu', 'spa'],
     bodyStats: ['crt', 'cdm'],
     feetStats: ['atk', 'spd'],
-    sphereStats: ['lig', 'atk'],
+    sphereStats: ['atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
   },
@@ -309,7 +309,7 @@ export default [
   },
   {
     id: 'mar',
-    name: 'March 7th Ice',
+    name: 'March 7th',
     relics: [
       ['kni'],
       ['kni', 'mes'],
@@ -322,34 +322,6 @@ export default [
     subStats: ['ehr', 'spd', 'def', 'hp', 'ers'],
   },
   {
-    id: 'mic',
-    name: 'March 7th Imaginary (CRT)',
-    relics: [
-      ['mus'],
-      ['was'],
-    ],
-    planars: ['rut', 'izu'],
-    bodyStats: ['crt', 'cdm'],
-    feetStats: ['spd', 'atk'],
-    sphereStats: ['ima', 'atk'],
-    ropeStats: ['atk'],
-    subStats: ['spd', 'crt', 'cdm', 'atk'],
-  },
-  {
-    id: 'mib',
-    name: 'March 7th Imaginary (Break)',
-    relics: [
-      ['iro'],
-      ['thi'],
-    ],
-    planars: ['tal', 'for'],
-    bodyStats: ['crt', 'cdm'],
-    feetStats: ['spd', 'atk'],
-    sphereStats: ['ima', 'atk'],
-    ropeStats: ['bef'],
-    subStats: ['spd', 'bef'],
-  },
-  {
     id: 'mis',
     name: 'Misha',
     relics: [
@@ -360,20 +332,6 @@ export default [
     bodyStats: ['crt', 'cdm'],
     feetStats: ['spd', 'atk'],
     sphereStats: ['ice', 'atk'],
-    ropeStats: ['atk'],
-    subStats: ['spd', 'crt', 'cdm', 'atk'],
-  },
-  {
-    id: 'moz',
-    name: 'Moze',
-    relics: [
-      ['pio'],
-      ['tas'],
-    ],
-    planars: ['dur', 'izu'],
-    bodyStats: ['crt', 'cdm'],
-    feetStats: ['atk'],
-    sphereStats: ['lig'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
   },
@@ -420,20 +378,6 @@ export default [
     subStats: ['spd', 'crt', 'cdm', 'atk'],
   },
   {
-    id: 'rob',
-    name: 'Robin',
-    relics: [
-      ['mus', 'pri'],
-      ['mus', 'mes'],
-    ],
-    planars: ['fle', 'spr'],
-    bodyStats: ['atk'],
-    feetStats: ['atk', 'spd'],
-    sphereStats: ['atk', 'phy'],
-    ropeStats: ['err'],
-    subStats: ['atk', 'spd', 'hp', 'def'],
-  },
-  {
     id: 'rua',
     name: 'Ruan Mei',
     relics: [
@@ -477,7 +421,7 @@ export default [
   },
   {
     id: 'sil',
-    name: 'Silver Wolf (Break)',
+    name: 'Silver Wolf',
     relics: [
       ['gen'],
       ['gen', 'mes'],
@@ -486,20 +430,6 @@ export default [
     bodyStats: ['ehr'],
     feetStats: ['spd'],
     sphereStats: ['qua'],
-    ropeStats: ['err'],
-    subStats: ['ehr', 'spd', 'hp', 'def', 'bef', 'ers'],
-  },
-  {
-    id: 'sid',
-    name: 'Silver Wolf (Debuff)',
-    relics: [
-      ['eag'],
-      ['gen', 'mes'],
-    ],
-    planars: ['pen', 'bro'],
-    bodyStats: ['ehr', 'hp'],
-    feetStats: ['spd'],
-    sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['ehr', 'spd', 'hp', 'def', 'bef', 'ers'],
   },
@@ -538,7 +468,7 @@ export default [
       ['pio'],
       ['tas'],
     ],
-    planars: ['dur', 'izu'],
+    planars: ['dur', 'ine'],
     bodyStats: ['crt', 'cdm'],
     feetStats: ['spd', 'atk'],
     sphereStats: ['atk', 'fir'],
