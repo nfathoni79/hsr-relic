@@ -22,7 +22,9 @@ const relicDetail = computed(() => {
   if (!currentRelic.value) return null
 
   const id = currentRelic.value
-  const name = relics.find(relic => relic.id == id)?.name
+  const relic = relics.find(relic => relic.id == id)
+  const name = relic?.name
+  const effects = relic?.effects
   
   const chars = characters.filter(char => !includeSecond.value
     ? char.relics[0].includes(id)
@@ -54,6 +56,7 @@ const relicDetail = computed(() => {
   return {
     id,
     name,
+    effects,
     chars,
     bodyStats,
     feetStats,
@@ -81,6 +84,10 @@ const relicDetail = computed(() => {
 
     <div v-if="relicDetail">
       <h2>{{ relicDetail?.name }}</h2>
+
+      <ul>
+        <li v-for="effect in relicDetail?.effects">{{ effect }}</li>
+      </ul>
 
       <h3>Characters</h3>
       <span v-for="(char, index) in relicDetail?.chars" :key="char.id">

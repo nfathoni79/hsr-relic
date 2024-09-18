@@ -22,7 +22,9 @@ const planarDetail = computed(() => {
   if (!currentPlanar.value) return null
 
   const id = currentPlanar.value
-  const name = planars.find(planar => planar.id == id)?.name
+  const planar = planars.find(planar => planar.id == id)
+  const name = planar?.name
+  const effect = planar?.effect
 
   const chars = characters.filter(char => !includeSecond.value
     ? char.planars[0] == id
@@ -54,6 +56,7 @@ const planarDetail = computed(() => {
   return {
     id,
     name,
+    effect,
     chars,
     sphereStats,
     ropeStats,
@@ -81,6 +84,8 @@ const planarDetail = computed(() => {
 
     <div v-if="planarDetail">
       <h2>{{ planarDetail?.name }}</h2>
+
+      <p>{{ planarDetail?.effect }}</p>
 
       <h3>Characters</h3>
       <span v-for="(char, index) in planarDetail?.chars" :key="char.id">
