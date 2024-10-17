@@ -45,6 +45,11 @@ export default [
     effect: 'ATK +12%. CRT +12% if other ally follow the same Path.',
   },
   {
+    id: 'lus',
+    name: 'Lushaka, the Sunken Seas',
+    effect: 'Energy Regen +5%. 1st character ATK +12% if the wearer is not the 1st.',
+  },
+  {
     id: 'pan',
     name: 'Pan-Cosmic Commercial Enterprise',
     effect: 'EHR +10%. ATK +(25% EHR), max 25%.',
@@ -78,5 +83,10 @@ export default [
     id: 'tal',
     name: 'Talia: Kingdom of Banditry',
     effect: 'Break Effect +16%. Break Effect +20% when SPD >= 145.',
+  },
+  {
+    id: 'two',
+    name: 'The Wondrous BananAmusement Park',
+    effect: 'CDM +16%. CDM +32% when a summon by the wearer is on the field.',
   },
 ]

@@ -294,6 +294,20 @@ export default [
     subStats: ['spd', 'ehr', 'bef', 'atk'],
   },
   {
+    id: 'lin',
+    name: 'Lingsha',
+    relics: [
+      ['pas'],
+      ['mes', 'pas'],
+    ],
+    planars: ['fle', 'lus'],
+    bodyStats: ['ohl'],
+    feetStats: ['spd'],
+    sphereStats: ['atk'],
+    ropeStats: ['err', 'bef'],
+    subStats: ['spd', 'bef', 'atk'],
+  },
+  {
     id: 'lyn',
     name: 'Lynx',
     relics: [
