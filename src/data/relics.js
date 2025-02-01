@@ -48,6 +48,14 @@ export default [
     ],
   },
   {
+    id: 'her',
+    name: 'Hero of Triumphant Song',
+    effects: [
+      'ATK +12%.',
+      'SPD +6% when memo on field. CDM +30%, 2 turns, when memo attacks.',
+    ],
+  },
+  {
     id: 'hun',
     name: 'Hunter of Glacial Forest',
     effects: [
@@ -112,11 +120,35 @@ export default [
     ],
   },
   {
+    id: 'poe',
+    name: 'Poet of Mourning Collapse',
+    effects: [
+      'QUA +10%.',
+      'SPD -8%. CRT +20%/32% if SPD < 110/95, before battle, to wearer and memo.',
+    ],
+  },
+  {
     id: 'pri',
     name: 'Prisoner in Deep Confinement',
     effects: [
       'ATK +12%.',
       'Ignore 6% DEF for every DoT afflicted. Max 3 DoTs.',
+    ],
+  },
+  {
+    id: 'sac',
+    name: 'Sacerdos\' Relived Ordeal',
+    effects: [
+      'SPD +6%.',
+      'Ally\'s CDM +18%, 2 turns, 2 stacks, when using Skill/Ultimate on them.',
+    ],
+  },
+  {
+    id: 'sch',
+    name: 'Scholar Lost in Erudition',
+    effects: [
+      'CRT +8%.',
+      'Skill/Ultimate DMG +20%. Next Skill DMG +25%, after using Ultimate.',
     ],
   },
   {
