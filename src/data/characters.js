@@ -616,6 +616,20 @@ export default [
     subStats: ['spd', 'cdm', 'ers'],
   },
   {
+    id: 'tri',
+    name: 'Tribbie',
+    relics: [
+      ['poe'],
+      ['lon'],
+    ],
+    planars: ['bon', 'ine'],
+    bodyStats: ['crt', 'cdm'],
+    feetStats: ['hp', 'spd'],
+    sphereStats: ['hp', 'qua'],
+    ropeStats: ['err', 'hp'],
+    subStats: ['spd', 'crt', 'cdm', 'hp'],
+  },
+  {
     id: 'wel',
     name: 'Welt',
     relics: [

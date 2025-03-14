@@ -5,6 +5,11 @@ export default [
     effect: 'DEF +15%. Extra DEF +15% when EHR >= 50%.',
   },
   {
+    id: 'bon',
+    name: 'Bone Collection\'s Serene Demesne',
+    effect: 'Max HP +12%. Wearer & Memo CRT +28% when Max HP >= 5000.',
+  },
+  {
     id: 'bro',
     name: 'Broken Keel',
     effect: 'ERS +10%. Allies CDM +10% when wearer ERS >= 30%.',
@@ -33,6 +38,11 @@ export default [
     id: 'for',
     name: 'Forge of the Kalpagni Lantern',
     effect: 'SPD +6%. Break Effect +40% when hits Fire weakness enemy, 1 turn.',
+  },
+  {
+    id: 'gia',
+    name: 'Giant Tree of Rapt Brooding',
+    effect: 'SPD +6%. Wearer & Memo OHL +12%/20% when SPD >= 135/180.',
   },
   {
     id: 'ine',
