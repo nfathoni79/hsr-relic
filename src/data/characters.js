@@ -84,6 +84,20 @@ export default [
     subStats: ['spd', 'cdm', 'hp', 'def', 'ers'],
   },
   {
+    id: 'cas',
+    name: 'Castorice',
+    relics: [
+      ['poe'],
+      ['sch', 'lon'],
+    ],
+    planars: ['bon', 'two'],
+    bodyStats: ['cdm', 'hp'],
+    feetStats: ['hp'],
+    sphereStats: ['hp', 'qua'],
+    ropeStats: ['hp'],
+    subStats: ['cdm', 'crt', 'hp', 'spd'],
+  },
+  {
     id: 'cla',
     name: 'Clara',
     relics: [
