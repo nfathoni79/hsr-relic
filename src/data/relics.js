@@ -171,8 +171,16 @@ export default [
     id: 'thi',
     name: 'Thief of Shooting Meteor',
     effects: [
-      'Break Effect +16%.',
-      'Break Effect +16%. Energy +3 when wearer inflicts weakness break.',
+      'BEF +16%.',
+      'BEF +16%. Energy +3 when wearer inflicts weakness break.',
+    ],
+  },
+  {
+    id: 'war',
+    name: 'Warrior Goddess of Sun and Thunder',
+    effects: [
+      'SPD +6%.',
+      'Gains "Gentle Rain", 2 turns, when wearer heals ally. SPD +6%, allies\' CDM +15%.',
     ],
   },
   {
@@ -189,6 +197,14 @@ export default [
     effects: [
       'Break Effect +16%.',
       'Allies Break Effect +30% when wearer uses Ultimate on ally, 2 turns.',
+    ],
+  },
+  {
+    id: 'wav',
+    name: 'Wavestrider Captain',
+    effects: [
+      'CDM +16%',
+      '"Help" stack +1, up to 2, when wearer targeted by ally\'s ability. ATK +48% when using Ultimate if there are 2 "Help".',
     ],
   },
 ]

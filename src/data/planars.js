@@ -1,5 +1,10 @@
 export default [
   {
+    id: 'arc',
+    name: 'Arcadia of Woven Dreams',
+    effect: 'Wearer & Memo DMG +9%/12%, up to 4/3 stacks, each additional/missing ally target of 4.',
+  },
+  {
     id: 'bel',
     name: 'Belobog of the Arcitects',
     effect: 'DEF +15%. Extra DEF +15% when EHR >= 50%.',
@@ -68,6 +73,11 @@ export default [
     id: 'pen',
     name: 'Penacony, Land of the Dreams',
     effect: 'Energy Regen +5%. Allies with same Type as wearer DMG +10%.',
+  },
+  {
+    id: 'rev',
+    name: 'Revelry by the Sea',
+    effect: 'ATK +12%. DoT DMG +12%/24% when wearer ATK >= 2400/3600.',
   },
   {
     id: 'rut',
