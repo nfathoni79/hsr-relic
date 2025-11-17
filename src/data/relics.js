@@ -152,6 +152,14 @@ export default [
     ],
   },
   {
+    id: 'sel',
+    name: 'Self-Enshrouded Recluse',
+    effects: [
+      'Shield Effect +10%',
+      'Shield Effect +12%. Ally shielded by wearer CDM +15%.',
+    ],
+  },
+  {
     id: 'tas',
     name: 'The Ashblazing Grand Duke',
     effects: [
@@ -205,6 +213,14 @@ export default [
     effects: [
       'CDM +16%',
       '"Help" stack +1, up to 2, when wearer targeted by ally\'s ability. ATK +48% when using Ultimate if there are 2 "Help".',
+    ],
+  },
+  {
+    id: 'wor',
+    name: 'World-Remaking Deliverer',
+    effects: [
+      'CRT +8%',
+      'Wearer & memo Max HP +24%, allies DMG +15%, when wearer use Basic or Skill.',
     ],
   },
 ]

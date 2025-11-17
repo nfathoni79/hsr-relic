@@ -140,6 +140,20 @@ export default [
     subStats: ['spd', 'crt', 'cdm', 'atk'],
   },
   {
+    id: 'dpt',
+    name: 'Dan Heng - Permansor Terrae',
+    relics: [
+      ['sel'],
+      ['sel', 'war'],
+    ],
+    planars: ['war', 'sac'],
+    bodyStats: ['atk'],
+    feetStats: ['spd', 'atk'],
+    sphereStats: ['atk'],
+    ropeStats: ['err'],
+    subStats: ['spd', 'atk', 'ers'],
+  },
+  {
     id: 'dra',
     name: 'Dr. Ratio',
     relics: [
@@ -432,6 +446,20 @@ export default [
     sphereStats: ['ima', 'atk'],
     ropeStats: ['bef'],
     subStats: ['spd', 'bef'],
+  },
+  {
+    id: 'mev',
+    name: 'March 7th - Evernight',
+    relics: [
+      ['wor'],
+      ['wor', 'sch'],
+    ],
+    planars: ['bon', 'arc'],
+    bodyStats: ['cdm'],
+    feetStats: ['hp', 'spd'],
+    sphereStats: ['ice', 'hp'],
+    ropeStats: ['hp', 'err'],
+    subStats: ['crt', 'cdm', 'hp', 'spd'],
   },
   {
     id: 'mis',

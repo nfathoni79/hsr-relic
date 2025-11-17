@@ -1,5 +1,10 @@
 export default [
   {
+    id: 'amp',
+    name: 'Amphoreus, The Eternal Land',
+    effect: 'Wearer CRT +8. Allies SPD +8% while memo on field.',
+  },
+  {
     id: 'arc',
     name: 'Arcadia of Woven Dreams',
     effect: 'Wearer & Memo DMG +9%/12%, up to 4/3 stacks, each additional/missing ally target of 4.',
@@ -103,6 +108,11 @@ export default [
     id: 'tal',
     name: 'Talia: Kingdom of Banditry',
     effect: 'Break Effect +16%. Break Effect +20% when SPD >= 145.',
+  },
+  {
+    id: 'ten',
+    name: 'Tengoku@Livestream',
+    effect: 'Wearer CDM +16%. Wearer CDM +32%, 3 turns, if 3 SP consumed',
   },
   {
     id: 'two',
