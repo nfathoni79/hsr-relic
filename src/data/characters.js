@@ -146,7 +146,7 @@ export default [
       ['sel'],
       ['sel', 'war'],
     ],
-    planars: ['war', 'sac'],
+    planars: ['lus', 'pen'],
     bodyStats: ['atk'],
     feetStats: ['spd', 'atk'],
     sphereStats: ['atk'],
