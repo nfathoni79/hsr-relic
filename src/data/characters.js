@@ -126,6 +126,20 @@ export default [
     subStats: ['spd', 'crt', 'cdm', 'atk'],
   },
   {
+    id: 'dah',
+    name: 'The Dahlia',
+    relics: [
+      ['iro'],
+      ['thi'],
+    ],
+    planars: ['for', 'tal'],
+    bodyStats: ['hp', 'ehr'],
+    feetStats: ['spd'],
+    sphereStats: ['hp', 'def'],
+    ropeStats: ['err', 'bef'],
+    subStats: ['spd', 'bef', 'hp', 'def', 'ers'],
+  },
+  {
     id: 'dan',
     name: 'Dan Heng',
     relics: [
