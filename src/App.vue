@@ -34,7 +34,7 @@ const currentCategory = computed({
   <div class="mx-auto max-w-screen-sm min-h-screen 
     bg-purple-50 px-4 py-2 prose">
     <RouterLink to="/"><h1>HSR ReliX</h1></RouterLink>
-    <p>Honkai Star Rail Relics Build and Management (HSR v3.8)</p>
+    <p>Honkai Star Rail Relics Build and Management (HSR v4.1)</p>
 
     <label class="block">
       <span>Category</span>

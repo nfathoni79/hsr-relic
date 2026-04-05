@@ -30,6 +30,11 @@ export default [
     effect: 'CDM +16%. CRT +60% when CDM >= 120% after entering battle.',
   },
   {
+    id: 'cit',
+    name: 'City of Converging Starts',
+    effect: 'ATK +24%, when uses FUA, 2 turns. Allies CDM +12%, when target defeated.'
+  },
+  {
     id: 'dur',
     name: 'Duran, Dynasty of Running Wolves',
     effect: 'Merit stack +1 when allies use FUA, up to 5 stacks. Wearer FUA DMG +5% for every Merit. Extra CDM +25% when 5 stacks.',
@@ -78,6 +83,11 @@ export default [
     id: 'pen',
     name: 'Penacony, Land of the Dreams',
     effect: 'Energy Regen +5%. Allies with same Type as wearer DMG +10%.',
+  },
+  {
+    id: 'pun',
+    name: 'Punklorde Stage Zero',
+    effect: 'ELA +8%. CDM +20%/32%, when ELA 40%/80% first time in combat.',
   },
   {
     id: 'rev',

@@ -16,11 +16,27 @@ export default [
     ],
   },
   {
+    id: 'div',
+    name: 'Diviner of Distant Reach',
+    effects: [
+      'SPD +6%',
+      'CRT +10%/18%, if SPD >= 120/160, before combat. ELA +10%, if uses ELA Skill 1st time each battle.'
+    ],
+  },
+  {
     id: 'eag',
     name: 'Eagle of Twilight Line',
     effects: [
       'Wind DMG +10%.',
       'Advance Forward 25% after using Ultimate.',
+    ],
+  },
+  {
+    id: 'eve',
+    name: 'Ever-Glorious Magical Girl',
+    effects: [
+      'CDM +16%',
+      'Ignores DEF 10% of ELA DMG. Aditionally ignores DEF 1%, every 5 Punchline, up to 10 stacks.'
     ],
   },
   {
