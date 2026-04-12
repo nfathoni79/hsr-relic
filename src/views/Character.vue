@@ -34,6 +34,14 @@ const charDetail = computed(() => {
     ? [getPlanar(char.planars[0])]
     : char.planars.map(planarId => getPlanar(planarId))
 
+  const teams = {
+    rnk: char.teams.rnk,
+    dmg: char.teams.dmg.map(charId => getChar(charId)),
+    sub: char.teams.sub.map(charId => getChar(charId)),
+    amp: char.teams.amp.map(charId => getChar(charId)),
+    sus: char.teams.sus.map(charId => getChar(charId)),
+  }
+
   return {
     id,
     name,
@@ -44,6 +52,7 @@ const charDetail = computed(() => {
     sphereStats: char.sphereStats,
     ropeStats: char.ropeStats,
     subStats: char.subStats,
+    teams,
   }
 })
 </script>
@@ -132,6 +141,70 @@ const charDetail = computed(() => {
             class="uppercase">
             {{ stat }}<span v-if="index < charDetail?.subStats.length - 1">, </span>
           </span>
+        </div>
+      </div>
+
+      <div>
+        <h3>Teams</h3>
+
+        <span>Rank: {{ charDetail?.teams.rnk }}</span>
+
+        <div class="grid grid-cols-2 gap-x-2">
+          <div>
+            <h4>Damagers</h4>
+            <span v-for="(char, index) in charDetail?.teams.dmg" :key="char.id">
+              <RouterLink v-if="char.id != route.params.id"
+                :to="{ name: 'characters', params: { id: char.id } }">
+                
+                {{ char.name }}
+              </RouterLink>
+              <span v-else>{{ char.name }}</span>
+              <span v-if="index < charDetail?.teams.dmg.length - 1">, </span>
+            </span>
+            <span v-if="charDetail?.teams.dmg.length < 1">-</span>
+          </div>
+
+          <div>
+            <h4>Sub Damagers</h4>
+            <span v-for="(char, index) in charDetail?.teams.sub" :key="char.id">
+              <RouterLink v-if="char.id != route.params.id"
+                :to="{ name: 'characters', params: { id: char.id } }">
+                
+                {{ char.name }}
+              </RouterLink>
+              <span v-else>{{ char.name }}</span>
+              <span v-if="index < charDetail?.teams.sub.length - 1">, </span>
+            </span>
+            <span v-if="charDetail?.teams.sub.length < 1">-</span>
+          </div>
+
+          <div>
+            <h4>Amplifiers</h4>
+            <span v-for="(char, index) in charDetail?.teams.amp" :key="char.id">
+              <RouterLink v-if="char.id != route.params.id"
+                :to="{ name: 'characters', params: { id: char.id } }">
+                
+                {{ char.name }}
+              </RouterLink>
+              <span v-else>{{ char.name }}</span>
+              <span v-if="index < charDetail?.teams.amp.length - 1">, </span>
+            </span>
+            <span v-if="charDetail?.teams.amp.length < 1">-</span>
+          </div>
+
+          <div>
+            <h4>Sustainers</h4>
+            <span v-for="(char, index) in charDetail?.teams.sus" :key="char.id">
+              <RouterLink v-if="char.id != route.params.id"
+                :to="{ name: 'characters', params: { id: char.id } }">
+                
+                {{ char.name }}
+              </RouterLink>
+              <span v-else>{{ char.name }}</span>
+              <span v-if="index < charDetail?.teams.sus.length - 1">, </span>
+            </span>
+            <span v-if="charDetail?.teams.sus.length < 1">-</span>
+          </div>
         </div>
       </div>
     </div>

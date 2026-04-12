@@ -12,6 +12,13 @@ export default [
     sphereStats: ['atk', 'lig'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 178,
+      dmg: ['ach'],
+      sub: [],
+      amp: ['spa', 'sil', 'tri', 'rob'],
+      sus: ['dpt', 'hya'],
+    },
   },
   {
     id: 'arc',
@@ -26,6 +33,13 @@ export default [
     sphereStats: ['atk', 'qua'],
     ropeStats: ['atk'],
     subStats: ['crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 5,
+      dmg: ['arc'],
+      sub: [],
+      amp: ['spa', 'yao', 'tri', 'tre', 'sil', 'rob'],
+      sus: ['dpt', 'hya', 'huo'],
+    },
   },
   {
     id: 'arl',
@@ -40,6 +54,13 @@ export default [
     sphereStats: ['lig', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'ast',
@@ -54,6 +75,13 @@ export default [
     sphereStats: ['fir', 'hp'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'bai',
@@ -68,6 +96,13 @@ export default [
     sphereStats: ['hp'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'ers', 'def'],
+    teams: {
+      rnk: 178,
+      dmg: ['hys', 'spx', 'cas', 'mev'],
+      sub: ['kaf', 'bls', 'mev'],
+      amp: ['spa', 'yao', 'tri'],
+      sus: ['bai'],
+    },
   },
   {
     id: 'bls',
@@ -82,6 +117,13 @@ export default [
     sphereStats: ['win'],
     ropeStats: ['atk'],
     subStats: ['ehr', 'spd', 'atk'],
+    teams: {
+      rnk: 2,
+      dmg: ['hys'],
+      sub: ['bls', 'kaf'],
+      amp: ['rua', 'cyr'],
+      sus: ['dpt', 'huo', 'hys', 'gal', 'luo'],
+    },
   },
   {
     id: 'bld',
@@ -95,7 +137,14 @@ export default [
     feetStats: ['spd', 'hp'],
     sphereStats: ['win', 'hp'],
     ropeStats: ['hp'],
-    subStats: ['spd', 'crt', 'cdm', 'hp']
+    subStats: ['spd', 'crt', 'cdm', 'hp'],
+    teams: {
+      rnk: 114,
+      dmg: ['bld', 'cas', 'mev'],
+      sub: ['jad', 'mev'],
+      amp: ['tri', 'tre', 'spa', 'rua', 'bro'],
+      sus: ['hya'],
+    },
   },
   {
     id: 'bro',
@@ -110,6 +159,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['spd', 'cdm', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 18,
+      dmg: [],
+      sub: [],
+      amp: ['bro', 'tre', 'rob', 'spa', 'cyr'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'cas',
@@ -124,6 +180,13 @@ export default [
     sphereStats: ['hp', 'qua'],
     ropeStats: ['hp'],
     subStats: ['cdm', 'crt', 'hp', 'spd'],
+    teams: {
+      rnk: 1,
+      dmg: ['cas', 'mev'],
+      sub: ['mev'],
+      amp: ['cyr', 'tri', 'tre', 'rua'],
+      sus: ['hya', 'luo'],
+    },
   },
   {
     id: 'cla',
@@ -138,6 +201,13 @@ export default [
     sphereStats: ['phy', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 299,
+      dmg: ['cla'],
+      sub: [],
+      amp: ['tri', 'spa', 'rob'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'cyr',
@@ -152,6 +222,13 @@ export default [
     sphereStats: ['hp', 'ice'],
     ropeStats: ['hp'],
     subStats: ['spd', 'crt', 'cdm', 'hp'],
+    teams: {
+      rnk: 1,
+      dmg: ['cas', 'mev'],
+      sub: ['mev'],
+      amp: ['cyr', 'tre', 'tri'],
+      sus: ['hya', 'dpt'],
+    },
   },
   {
     id: 'dah',
@@ -166,6 +243,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err', 'bef'],
     subStats: ['spd', 'bef', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 4,
+      dmg: ['fir'],
+      sub: [],
+      amp: ['dah', 'tif', 'tha', 'rua'],
+      sus: ['lin', 'gal'],
+    },
   },
   {
     id: 'dan',
@@ -180,6 +264,13 @@ export default [
     sphereStats: ['win', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'dpt',
@@ -194,6 +285,13 @@ export default [
     sphereStats: ['atk'],
     ropeStats: ['err'],
     subStats: ['spd', 'atk', 'ers'],
+    teams: {
+      rnk: 2,
+      dmg: ['hys', 'spx', 'arc'],
+      sub: ['kaf', 'bls'],
+      amp: ['spa', 'yao', 'tri', 'cyr', 'the'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'dra',
@@ -208,6 +306,13 @@ export default [
     sphereStats: ['ima', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'fir',
@@ -222,6 +327,13 @@ export default [
     sphereStats: ['atk'],
     ropeStats: ['bef'],
     subStats: ['spd', 'bef', 'atk'],
+    teams: {
+      rnk: 4,
+      dmg: ['fir'],
+      sub: [],
+      amp: ['tif', 'dah', 'tha', 'rua'],
+      sus: ['lin', 'gal', 'dpt'],
+    },
   },
   {
     id: 'fux',
@@ -236,6 +348,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 39,
+      dmg: ['spx', 'arc', 'hys', 'the'],
+      sub: ['kaf', 'bls'],
+      amp: ['spa', 'yao', 'tri', 'sil'],
+      sus: ['fux'],
+    },
   },
   {
     id: 'gal',
@@ -250,6 +369,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['spd', 'bef', 'ers', 'hp', 'def'],
+    teams: {
+      rnk: 10,
+      dmg: ['fir', 'hys', 'spx', 'arc', 'cas', 'mev'],
+      sub: ['kaf', 'bls', 'mev'],
+      amp: ['tif', 'dah', 'tha', 'spa', 'yao', 'rua', 'cyr', 'tri', 'tre'],
+      sus: ['gal'],
+    },
   },
   {
     id: 'gep',
@@ -264,6 +390,13 @@ export default [
     sphereStats: ['def'],
     ropeStats: ['err'],
     subStats: ['spd', 'def', 'hp', 'ers'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'gui',
@@ -278,6 +411,13 @@ export default [
     sphereStats: ['fir', 'atk'],
     ropeStats: ['atk'],
     subStats: ['ehr', 'spd', 'atk', 'hp', 'def', 'bef'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'han',
@@ -292,6 +432,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'def', 'bef', 'ers'],
+    teams: {
+      rnk: 398,
+      dmg: ['arc'],
+      sub: [],
+      amp: ['han', 'spa'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'her',
@@ -306,6 +453,13 @@ export default [
     sphereStats: ['ice', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 165,
+      dmg: ['the'],
+      sub: ['her'],
+      amp: ['tri', 'tre'],
+      sus: ['dpt', 'hya', 'gal'],
+    },
   },
   {
     id: 'the',
@@ -320,6 +474,13 @@ export default [
     sphereStats: ['ice', 'atk'],
     ropeStats: ['atk', 'err'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 25,
+      dmg: ['the'],
+      sub: ['her', 'jad'],
+      amp: ['tri', 'tre', 'rob'],
+      sus: ['dpt', 'hya', 'huo'],
+    },
   },
   {
     id: 'him',
@@ -334,6 +495,13 @@ export default [
     sphereStats: ['fir', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 398,
+      dmg: ['him'],
+      sub: [],
+      amp: ['tif', 'dah'],
+      sus: ['lin'],
+    },
   },
   {
     id: 'hoo',
@@ -348,6 +516,13 @@ export default [
     sphereStats: ['fir', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'huo',
@@ -362,6 +537,13 @@ export default [
     sphereStats: ['hp'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'ers', 'def'],
+    teams: {
+      rnk: 11,
+      dmg: ['spx', 'hys', 'arc', 'sab', 'mev', 'cas', 'the'],
+      sub: ['kaf', 'bls', 'mev'],
+      amp: ['spa', 'yao', 'tri', 'cyr', 'tre'],
+      sus: ['huo'],
+    },
   },
   {
     id: 'hya',
@@ -376,6 +558,13 @@ export default [
     sphereStats: ['hp'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'cdm', 'ers'],
+    teams: {
+      rnk: 1,
+      dmg: ['cas', 'mev', 'hys', 'the'],
+      sub: ['mev', 'kaf', 'bls'],
+      amp: ['cyr', 'tri', 'tre'],
+      sus: ['hya'],
+    },
   },
   {
     id: 'hys',
@@ -390,6 +579,13 @@ export default [
     sphereStats: ['phy', 'atk'],
     ropeStats: ['atk', 'err'],
     subStats: ['ehr', 'spd', 'atk'],
+    teams: {
+      rnk: 2,
+      dmg: ['hys'],
+      sub: ['kaf', 'bls'],
+      amp: ['rua', 'cyr', 'rob'],
+      sus: ['dpt', 'huo', 'hya', 'gal', 'luo'],
+    },
   },
   {
     id: 'jad',
@@ -404,6 +600,13 @@ export default [
     sphereStats: ['qua'],
     ropeStats: ['atk'],
     subStats: ['crt', 'cdm', 'atk', 'spd'],
+    teams: {
+      rnk: 208,
+      dmg: ['the', 'bld'],
+      sub: ['jad'],
+      amp: ['tri', 'rob', 'yao', 'tre'],
+      sus: ['hys', 'dpt', 'lin'],
+    },
   },
   {
     id: 'kaf',
@@ -418,6 +621,13 @@ export default [
     sphereStats: ['lig', 'atk'],
     ropeStats: ['err', 'atk'],
     subStats: ['ehr', 'spd', 'atk'],
+    teams: {
+      rnk: 2,
+      dmg: ['hys'],
+      sub: ['kaf', 'bls'],
+      amp: ['rua', 'cyr', 'rob'],
+      sus: ['dpt', 'huo', 'hys', 'gal', 'luo'],
+    },
   },
   {
     id: 'lin',
@@ -432,6 +642,13 @@ export default [
     sphereStats: ['atk'],
     ropeStats: ['err', 'bef'],
     subStats: ['spd', 'bef', 'atk'],
+    teams: {
+      rnk: 4,
+      dmg: ['fir', 'spx', 'arc', 'the'],
+      sub: [],
+      amp: ['tif', 'dah', 'tha', 'rua', 'spa', 'yao', 'tri'],
+      sus: ['lin'],
+    },
   },
   {
     id: 'luk',
@@ -446,6 +663,13 @@ export default [
     sphereStats: ['phy', 'atk'],
     ropeStats: ['bef', 'atk'],
     subStats: ['spd', 'ehr', 'bef', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'luo',
@@ -460,6 +684,13 @@ export default [
     sphereStats: ['atk'],
     ropeStats: ['err'],
     subStats: ['spd', 'atk', 'def', 'hp', 'ers'],
+    teams: {
+      rnk: 73,
+      dmg: ['cas', 'mev', 'hys', 'spx', 'arc'],
+      sub: ['mev', 'kaf', 'bls'],
+      amp: ['cyr', 'spa', 'yao', 'tri', 'tre'],
+      sus: ['luo'],
+    },
   },
   {
     id: 'lyn',
@@ -474,6 +705,13 @@ export default [
     sphereStats: ['hp'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'ers', 'def'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'mar',
@@ -488,6 +726,13 @@ export default [
     sphereStats: ['def'],
     ropeStats: ['err', 'def'],
     subStats: ['ehr', 'spd', 'def', 'hp', 'ers'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'mhc',
@@ -502,6 +747,13 @@ export default [
     sphereStats: ['ima', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 398,
+      dmg: [],
+      sub: ['mhc'],
+      amp: ['rob'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'mhb',
@@ -516,6 +768,13 @@ export default [
     sphereStats: ['ima', 'atk'],
     ropeStats: ['bef'],
     subStats: ['spd', 'bef'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: ['mhb'],
+      amp: ['rob'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'mev',
@@ -530,6 +789,13 @@ export default [
     sphereStats: ['ice', 'hp'],
     ropeStats: ['hp', 'err'],
     subStats: ['crt', 'cdm', 'hp', 'spd'],
+    teams: {
+      rnk: 1,
+      dmg: ['mev', 'cas'],
+      sub: ['mev'],
+      amp: ['cyr', 'tri', 'tre', 'rua'],
+      sus: ['hya', 'luo', 'huo'],
+    },
   },
   {
     id: 'mis',
@@ -544,6 +810,13 @@ export default [
     sphereStats: ['ice', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'moz',
@@ -558,6 +831,13 @@ export default [
     sphereStats: ['lig'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 398,
+      dmg: [],
+      sub: ['moz'],
+      amp: ['rob'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'nat',
@@ -572,6 +852,13 @@ export default [
     sphereStats: ['hp'],
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'ers', 'def'],
+    teams: {
+      rnk: 398,
+      dmg: ['hys'],
+      sub: ['kaf', 'bls'],
+      amp: [],
+      sus: ['nat'],
+    },
   },
   {
     id: 'pel',
@@ -586,6 +873,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['ehr', 'spd', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 398,
+      dmg: ['mev'],
+      sub: [],
+      amp: ['pel', 'tre'],
+      sus: ['hya'],
+    },
   },
   {
     id: 'qin',
@@ -600,6 +894,13 @@ export default [
     sphereStats: ['qua'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 299,
+      dmg: ['qin'],
+      sub: [],
+      amp: ['spa'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'rob',
@@ -614,6 +915,13 @@ export default [
     sphereStats: ['atk', 'phy'],
     ropeStats: ['err'],
     subStats: ['atk', 'spd', 'hp', 'def'],
+    teams: {
+      rnk: 54,
+      dmg: ['arc', 'sab', 'hys'],
+      sub: ['kaf', 'bls'],
+      amp: ['rob', 'spa', 'tri', 'bro', 'tre'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'rua',
@@ -628,6 +936,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err', 'bef'],
     subStats: ['bef', 'spd', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 14,
+      dmg: ['fir', 'hys', 'arc', 'cas'],
+      sub: ['kaf', 'bls'],
+      amp: ['rua', 'tif', 'dah', 'tha', 'spa', 'tre', 'tri'],
+      sus: ['dpt', 'lin', 'hya', 'gal'],
+    },
   },
   {
     id: 'sab',
@@ -642,6 +957,13 @@ export default [
     sphereStats: ['win', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 41,
+      dmg: ['sab'],
+      sub: [],
+      amp: ['tri', 'rob', 'tre', 'yao', 'spa'],
+      sus: ['dpt', 'huo', 'hys'],
+    },
   },
   {
     id: 'sam',
@@ -656,6 +978,13 @@ export default [
     sphereStats: ['win', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'ehr', 'atk', 'bef'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'ser',
@@ -670,6 +999,13 @@ export default [
     sphereStats: ['lig', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 241,
+      dmg: ['the'],
+      sub: ['ser'],
+      amp: ['tri'],
+      sus: ['dpt', 'hya'],
+    },
   },
   {
     id: 'sil',
@@ -684,6 +1020,13 @@ export default [
     sphereStats: ['qua', 'hp'],
     ropeStats: ['err'],
     subStats: ['ehr', 'spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 29,
+      dmg: ['arc', 'cas', 'mev', 'ach'],
+      sub: ['mev'],
+      amp: ['sil', 'spa', 'tri', 'tre'],
+      sus: ['dpt', 'hya'],
+    },
   },
   {
     id: 'spa',
@@ -698,6 +1041,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['spd', 'cdm', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 3,
+      dmg: ['spx', 'arc'],
+      sub: [],
+      amp: ['spa', 'yao', 'tri', 'tre', 'sil'],
+      sus: ['dpt', 'huo'],
+    },
   },
   {
     id: 'spx',
@@ -712,6 +1062,13 @@ export default [
     sphereStats: ['atk'],
     ropeStats: ['err', 'atk'],
     subStats: ['atk', 'crt', 'cdm'],
+    teams: {
+      rnk: 3,
+      dmg: ['spx'],
+      sub: [],
+      amp: ['spa', 'yao', 'tri'],
+      sus: ['dpt', 'huo', 'fux'],
+    },
   },
   {
     id: 'sus',
@@ -726,6 +1083,13 @@ export default [
     sphereStats: ['phy', 'atk'],
     ropeStats: ['bef', 'atk'],
     subStats: ['spd', 'bef', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'tin',
@@ -740,6 +1104,13 @@ export default [
     sphereStats: ['atk', 'hp'],
     ropeStats: ['err'],
     subStats: ['spd', 'atk', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 299,
+      dmg: ['spx', 'arc', 'sab'],
+      sub: [],
+      amp: ['tin', 'bro', 'spa', 'tre'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'tif',
@@ -754,6 +1125,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['bef', 'err'],
     subStats: ['ehr', 'bef', 'spd', 'hp', 'def'],
+    teams: {
+      rnk: 4,
+      dmg: ['fir'],
+      sub: [],
+      amp: ['tif', 'dah', 'tha', 'rua'],
+      sus: ['lin', 'gal', 'dpt', 'huo'],
+    },
   },
   {
     id: 'top',
@@ -768,6 +1146,13 @@ export default [
     sphereStats: ['fir', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 241,
+      dmg: [],
+      sub: ['top'],
+      amp: ['rob'],
+      sus: ['dpt'],
+    },
   },
   {
     id: 'tde',
@@ -782,6 +1167,13 @@ export default [
     sphereStats: ['phy', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'bef', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'tpr',
@@ -796,6 +1188,13 @@ export default [
     sphereStats: ['def', 'fir'],
     ropeStats: ['err', 'def'],
     subStats: ['ers', 'spd', 'def', 'hp', 'ehr'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'tha',
@@ -810,6 +1209,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['bef', 'err'],
     subStats: ['spd', 'bef', 'hp', 'def'],
+    teams: {
+      rnk: 9,
+      dmg: ['fir'],
+      sub: [],
+      amp: ['tha', 'tif', 'dah', 'rua', 'tri'],
+      sus: ['lin', 'gal', 'dpt', 'huo'],
+    },
   },
   {
     id: 'tre',
@@ -824,6 +1230,13 @@ export default [
     sphereStats: ['ice', 'hp', 'def'],
     ropeStats: ['err'],
     subStats: ['spd', 'cdm', 'ers'],
+    teams: {
+      rnk: 8,
+      dmg: ['cas', 'mev', 'arc'],
+      sub: ['mev'],
+      amp: ['tre', 'cyr', 'tri', 'spa'],
+      sus: ['hya', 'dpt'],
+    },
   },
   {
     id: 'tri',
@@ -838,6 +1251,13 @@ export default [
     sphereStats: ['hp', 'qua'],
     ropeStats: ['err', 'hp'],
     subStats: ['spd', 'crt', 'cdm', 'hp'],
+    teams: {
+      rnk: 7,
+      dmg: ['cas', 'mev', 'arc', 'the', 'spx', 'sab'],
+      sub: ['mev'],
+      amp: ['tri', 'spa', 'cyr', 'yao'],
+      sus: ['hya', 'dpt'],
+    },
   },
   {
     id: 'wel',
@@ -852,6 +1272,13 @@ export default [
     sphereStats: ['ima', 'atk'],
     ropeStats: ['atk'],
     subStats: ['spd', 'ehr', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
   {
     id: 'xue',
@@ -866,6 +1293,13 @@ export default [
     sphereStats: ['atk', 'qua'],
     ropeStats: ['bef'],
     subStats: ['spd', 'bef', 'crt', 'cdm', 'atk'],
+    teams: {
+      rnk: 398,
+      dmg: ['xue'],
+      sub: [],
+      amp: ['tif', 'rua', 'dah'],
+      sus: ['lin'],
+    },
   },
   {
     id: 'yao',
@@ -880,6 +1314,13 @@ export default [
     sphereStats: ['hp', 'def'],
     ropeStats: ['err'],
     subStats: ['spd', 'crt', 'cdm'],
+    teams: {
+      rnk: 3,
+      dmg: ['spx', 'arc'],
+      sub: [],
+      amp: ['yao', 'spa', 'tri'],
+      sus: ['dpt', 'huo', 'fux', 'hya'],
+    },
   },
   {
     id: 'yuk',
@@ -894,5 +1335,12 @@ export default [
     sphereStats: ['ima', 'atk'],
     ropeStats: ['err', 'atk'],
     subStats: ['spd', 'hp', 'def', 'ers'],
+    teams: {
+      rnk: 0,
+      dmg: [],
+      sub: [],
+      amp: [],
+      sus: [],
+    },
   },
 ]
