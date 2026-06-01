@@ -105,7 +105,8 @@ const charDetail = computed(() => {
       <div class="grid grid-cols-2">
         <div>
           <h3>Body</h3>
-          <span v-for="(stat, index) in charDetail?.bodyStats" :key="index"
+          <span v-if="charDetail?.bodyStats.length <= 0">Any</span>
+          <span v-else v-for="(stat, index) in charDetail?.bodyStats" :key="index"
             class="uppercase">
             {{ stat }}<span v-if="index < charDetail?.bodyStats.length - 1">, </span>
           </span>
@@ -113,7 +114,8 @@ const charDetail = computed(() => {
 
         <div>
           <h3>Feet</h3>
-          <span v-for="(stat, index) in charDetail?.feetStats" :key="index"
+          <span v-if="charDetail?.feetStats.length <= 0">Any</span>
+          <span v-else v-for="(stat, index) in charDetail?.feetStats" :key="index"
             class="uppercase">
             {{ stat }}<span v-if="index < charDetail?.feetStats.length - 1">, </span>
           </span>
@@ -121,7 +123,8 @@ const charDetail = computed(() => {
 
         <div>
           <h3>Planar Sphere</h3>
-          <span v-for="(stat, index) in charDetail?.sphereStats" :key="index"
+          <span v-if="charDetail?.sphereStats.length <= 0">Any</span>
+          <span v-else v-for="(stat, index) in charDetail?.sphereStats" :key="index"
             class="uppercase">
             {{ stat }}<span v-if="index < charDetail?.sphereStats.length - 1">, </span>
           </span>
@@ -129,7 +132,8 @@ const charDetail = computed(() => {
 
         <div>
           <h3>Link Rope</h3>
-          <span v-for="(stat, index) in charDetail?.ropeStats" :key="index"
+          <span v-if="charDetail?.ropeStats.length <= 0">Any</span>
+          <span v-else v-for="(stat, index) in charDetail?.ropeStats" :key="index"
             class="uppercase">
             {{ stat }}<span v-if="index < charDetail?.ropeStats.length - 1">, </span>
           </span>

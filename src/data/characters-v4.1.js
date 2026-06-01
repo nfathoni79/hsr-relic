@@ -118,7 +118,7 @@ export default [
     ropeStats: ['atk'],
     subStats: ['ehr', 'spd', 'atk'],
     teams: {
-      rnk: 3,
+      rnk: 2,
       dmg: ['hys'],
       sub: ['bls', 'kaf'],
       amp: ['rua', 'cyr'],
@@ -181,7 +181,7 @@ export default [
     ropeStats: ['hp'],
     subStats: ['cdm', 'crt', 'hp', 'spd'],
     teams: {
-      rnk: 2,
+      rnk: 1,
       dmg: ['cas', 'mev'],
       sub: ['mev'],
       amp: ['cyr', 'tri', 'tre', 'rua'],
@@ -223,7 +223,7 @@ export default [
     ropeStats: ['hp'],
     subStats: ['spd', 'crt', 'cdm', 'hp'],
     teams: {
-      rnk: 2,
+      rnk: 1,
       dmg: ['cas', 'mev'],
       sub: ['mev'],
       amp: ['cyr', 'tre', 'tri'],
@@ -286,7 +286,7 @@ export default [
     ropeStats: ['err'],
     subStats: ['spd', 'atk', 'ers'],
     teams: {
-      rnk: 3,
+      rnk: 2,
       dmg: ['hys', 'spx', 'arc'],
       sub: ['kaf', 'bls'],
       amp: ['spa', 'yao', 'tri', 'cyr', 'the'],
@@ -312,27 +312,6 @@ export default [
       sub: [],
       amp: [],
       sus: [],
-    },
-  },
-  {
-    id: 'eva',
-    name: 'Evanescia',
-    relics: [
-      ['eve'],
-      ['eve'],
-    ],
-    planars: ['pun', 'pun'],
-    bodyStats: ['cdm'],
-    feetStats: [],
-    sphereStats: [],
-    ropeStats: ['err'],
-    subStats: ['crt', 'cdm'],
-    teams: {
-      rnk: 6,
-      dmg: ['eva', 'sw9'],
-      sub: ['spx'],
-      amp: ['tel', 'yao', 'spa', 'tri'],
-      sus: ['huo', 'dpt', 'hya'],
     },
   },
   {
@@ -580,7 +559,7 @@ export default [
     ropeStats: ['err'],
     subStats: ['spd', 'hp', 'cdm', 'ers'],
     teams: {
-      rnk: 2,
+      rnk: 1,
       dmg: ['cas', 'mev', 'hys', 'the'],
       sub: ['mev', 'kaf', 'bls'],
       amp: ['cyr', 'tri', 'tre'],
@@ -601,7 +580,7 @@ export default [
     ropeStats: ['atk', 'err'],
     subStats: ['ehr', 'spd', 'atk'],
     teams: {
-      rnk: 3,
+      rnk: 2,
       dmg: ['hys'],
       sub: ['kaf', 'bls'],
       amp: ['rua', 'cyr', 'rob'],
@@ -643,7 +622,7 @@ export default [
     ropeStats: ['err', 'atk'],
     subStats: ['ehr', 'spd', 'atk'],
     teams: {
-      rnk: 3,
+      rnk: 2,
       dmg: ['hys'],
       sub: ['kaf', 'bls'],
       amp: ['rua', 'cyr', 'rob'],
@@ -811,7 +790,7 @@ export default [
     ropeStats: ['hp', 'err'],
     subStats: ['crt', 'cdm', 'hp', 'spd'],
     teams: {
-      rnk: 2,
+      rnk: 1,
       dmg: ['mev', 'cas'],
       sub: ['mev'],
       amp: ['cyr', 'tri', 'tre', 'rua'],
@@ -1050,27 +1029,6 @@ export default [
     },
   },
   {
-    id: 'sw9',
-    name: 'Silver Wolf Lv. 999',
-    relics: [
-      ['eve'],
-      ['div'],
-    ],
-    planars: ['pun', 'pun'],
-    bodyStats: ['crt'],
-    feetStats: ['spd'],
-    sphereStats: [],
-    ropeStats: [],
-    subStats: ['spd', 'crt', 'cdm'],
-    teams: {
-      rnk: 1,
-      dmg: ['sw9', 'spx'],
-      sub: ['spx'],
-      amp: ['yao', 'tel', 'spa'],
-      sus: ['huo', 'dpt', 'hya'],
-    },
-  },
-  {
     id: 'spa',
     name: 'Sparkle',
     relics: [
@@ -1278,27 +1236,6 @@ export default [
       sub: ['mev'],
       amp: ['tre', 'cyr', 'tri', 'spa'],
       sus: ['hya', 'dpt'],
-    },
-  },
-  {
-    id: 'tel',
-    name: 'Trailblazer Elation',
-    relics: [
-      ['div'],
-      ['eag'],
-    ],
-    planars: ['spr', 'cit'],
-    bodyStats: ['crt', 'hp', 'def'],
-    feetStats: ['spd'],
-    sphereStats: ['hp', 'def', 'atk'],
-    ropeStats: ['err'],
-    subStats: ['spd', 'crt', 'cdm', 'hp'],
-    teams: {
-      rnk: 5,
-      dmg: ['sw9', 'eva', 'spx', 'arc'],
-      sub: ['spx'],
-      amp: ['tel', 'yao', 'spa', 'tri'],
-      sus: ['huo', 'dpt', 'hya'],
     },
   },
   {
