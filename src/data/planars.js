@@ -35,9 +35,19 @@ export default [
     effect: 'ATK +24%, when uses FUA, 2 turns. Allies CDM +12%, when target defeated.'
   },
   {
+    id: 'cos',
+    name: 'Cosmic Life Sciences Institute',
+    effect: 'DMG +0.2%, if wearer Max Energy >= 200, for every 1 point exceeded, up to 32%.'
+  },
+  {
     id: 'dur',
     name: 'Duran, Dynasty of Running Wolves',
     effect: 'Merit stack +1 when allies use FUA, up to 5 stacks. Wearer FUA DMG +5% for every Merit. Extra CDM +25% when 5 stacks.',
+  },
+  {
+    id: 'fal',
+    name: 'Fallen Star Anchorage',
+    effect: 'CRT +8%. CMD +32%, if wearer and team Traiblaze Companions.',
   },
   {
     id: 'fir',

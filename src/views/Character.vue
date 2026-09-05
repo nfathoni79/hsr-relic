@@ -26,13 +26,16 @@ const charDetail = computed(() => {
 
   const name = char.name
 
-  const relics = !includeSecond.value
-    ? [char.relics[0].map(relicId => getRelic(relicId))]
-    : char.relics.map(relicSet => relicSet.map(relicId => getRelic(relicId)))
+  let relics = char.relics.map(relicSet => relicSet.map(relicId => getRelic(relicId)))
+  let planars = char.planars.map(planarId => getPlanar(planarId))
 
-  const planars = !includeSecond.value
-    ? [getPlanar(char.planars[0])]
-    : char.planars.map(planarId => getPlanar(planarId))
+  if (relics.length > 0 && !includeSecond.value) {
+    relics = [relics[0]]
+  }
+
+  if (planars.length > 0 && !includeSecond.value) {
+    planars = [planars[0]]
+  }
 
   const teams = {
     rnk: char.teams.rnk,
@@ -80,7 +83,8 @@ const charDetail = computed(() => {
       <div>
         <h3>Relics</h3>
         <ul>
-          <li v-for="(relicSet, setIndex) in charDetail?.relics" :key="setIndex">
+          <li v-if="charDetail?.relics.flat().length <= 0">-</li>
+          <li v-else v-for="(relicSet, setIndex) in charDetail?.relics" :key="setIndex">
             <span v-for="(relic, index) in relicSet" :key="relic.id">
               <RouterLink :to="{ name: 'relics', params: { id: relic.id } }">
                 {{ relic.name }}
@@ -94,7 +98,8 @@ const charDetail = computed(() => {
       <div>
         <h3>Planars</h3>
         <ul>
-          <li v-for="planar in charDetail?.planars" :key="planar.id">
+          <li v-if="charDetail?.planars.length <= 0">-</li>
+          <li v-else v-for="(planar, index) in charDetail?.planars" :key="index">
             <RouterLink :to="{ name: 'planars', params: { id: planar.id } }">
               {{ planar.name }}
             </RouterLink>

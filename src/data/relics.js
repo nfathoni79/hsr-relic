@@ -1,5 +1,13 @@
 export default [
   {
+    id: 'asn',
+    name: 'As Navigator Isee Sees It',
+    effects: [
+      'ATK +12%.',
+      'Skill & Ult DMG +18%, when enter combat/use skill, up to 3 stacks, removed by 1 stack at turn start/using Ult',
+    ],
+  },
+  {
     id: 'ban',
     name: 'Band of Sizzling Thunder',
     effects: [
@@ -13,6 +21,14 @@ export default [
     effects: [
       'Physical DMG +10%.',
       'ATK +5% when the wearer is hit, up to 5 stacks.',
+    ],
+  },
+  {
+    id: 'diq',
+    name: 'Divine-Querying Master Smith',
+    effects: [
+      'Max HP +12%',
+      'CDM +28% in DEF reduction state. Allies gain Comburent, 2 turns. Allies DMG with Comburent +15%.'
     ],
   },
   {
